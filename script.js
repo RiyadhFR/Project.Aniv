@@ -38,7 +38,7 @@ musicBtn.addEventListener("click", () => {
 });
 
 function hitungHari() {
-    const startDate = new Date("2021-12-25");
+    const startDate = new Date("2022-12-25");
     const today = new Date();
 
     const diff = today - startDate;
@@ -49,6 +49,7 @@ function hitungHari() {
 }
 
 hitungHari();
+
 
 
 
