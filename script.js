@@ -38,10 +38,11 @@ musicBtn.addEventListener("click", () => {
 });
 
 function hitungHari() {
-    const startDate = new Date("2022-12-25");
+   const startDate = new Date("2022-12-25");
     const today = new Date();
     const diff = today - startDate;
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
     document.getElementById("days").textContent = days + " hari";
 }
+
 
