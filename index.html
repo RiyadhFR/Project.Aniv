@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Riyadh & Nilam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- COVER -->
+<div id="cover">
+    <h1>Riyadh & Nilam</h1>
+    <p>25 Desember ❤️</p>
+    <button id="openBtn">Klik untuk membuka</button>
+</div>
+
+<!-- PASSWORD -->
+<div id="passwordScreen" class="hidden">
+    <h2>Masukkan Password</h2>
+    <input type="password" id="passwordInput" placeholder="Password">
+    <button id="submitPassword">Buka</button>
+    <p id="error">Password salah</p>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="content" class="hidden">
+    <audio id="music" src="BatasSenja.mp3" loop></audio>
+
+    <section class="card">
+        <h2>Riyadh & Nilam</h2>
+        <p class="date">25 Desember</p>
+
+        <div class="letter">
+            <p>
+                Sejak 25 Desember, semesta seperti memberi arti baru  
+                tentang pulang, tentang tenang, dan tentang harapan.
+            </p>
+            <p>
+                Bersamamu, hal-hal sederhana menjadi istimewa.  
+                Tawa kecil, diam yang nyaman, dan doa yang perlahan  
+                tumbuh menjadi keyakinan.
+            </p>
+            <p>
+                Terima kasih karena selalu bertahan,  
+                bahkan saat keadaan tidak selalu mudah.  
+                Terima kasih karena memilih untuk tetap berjalan,  
+                bukan karena sempurna, tetapi karena saling.
+            </p>
+            <p>
+                Semoga setiap langkah ke depan  
+                selalu menemukan kita saling menggenggam,  
+                belajar, tumbuh, dan mencintai dengan cara yang lebih dewasa.
+            </p>
+            <p class="signature">
+                — Dengan cinta, selalu.
+            </p>
+        </div>
+
+        <div class="counter">
+            <h3>Kita bersama selama</h3>
+            <p id="days"></p>
+        </div>
+
+        <button id="musicBtn">🎵 Putar Musik</button>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
